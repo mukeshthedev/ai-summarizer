@@ -85,7 +85,7 @@ function App() {
  
       {/* HEADER */}
       <header className="header">
-        <div className="header-logo">Study<em>Mate</em></div>
+        <div className="header-logo">Smart<em>AI</em></div>
         <button className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? (
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
