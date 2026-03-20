@@ -42,10 +42,10 @@ function App() {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      const uploadRes = await axios.post("http://localhost:5000/upload", formData, {
+      const uploadRes = await axios.post("https://ai-summarizer-p2dy.onrender.com/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-      const summaryRes = await axios.post("http://localhost:5000/summarize", {
+      const summaryRes = await axios.post("https://ai-summarizer-p2dy.onrender.com/summarize", {
         text: uploadRes.data.text,
         type: summaryType,
       });
@@ -64,7 +64,7 @@ function App() {
     setChat((prev) => [...prev, { question: q, answer: null }]);
     setAskLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/ask", { question: q, context: summary });
+      const res = await axios.post("https://ai-summarizer-p2dy.onrender.com/ask", { question: q, context: summary });
       setChat((prev) => {
         const updated = [...prev];
         updated[updated.length - 1].answer = res.data.answer;
