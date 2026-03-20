@@ -8,6 +8,16 @@
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
  
 ---
+
+## 📖 How to Use
+ 
+1. Open the app in your browser
+2. Drag & drop or click to upload a **PDF, DOCX, or TXT** file
+3. Choose summary length — **Short, Medium, or Detailed**
+4. Click **Summarize** and wait for the AI result
+5. Switch to the **Q&A Chat** tab and ask questions about your document
+ 
+---
  
 ## ✨ Features
  
@@ -140,15 +150,6 @@ Frontend runs at → `http://localhost:3000`
  
 ---
  
-## 📖 How to Use
- 
-1. Open the app in your browser
-2. Drag & drop or click to upload a **PDF, DOCX, or TXT** file
-3. Choose summary length — **Short, Medium, or Detailed**
-4. Click **Summarize** and wait for the AI result
-5. Switch to the **Q&A Chat** tab and ask questions about your document
- 
----
  
 ## 👨‍💻 Author
  
