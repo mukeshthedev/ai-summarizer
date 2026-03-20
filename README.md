@@ -1,4 +1,4 @@
-# 📚 StudyMate — AI-Powered Document Summarizer
+# 📚 SmartAI — AI-Powered Document Summarizer
  
 > Upload any PDF, DOCX, or TXT file and get a smart AI summary instantly. Ask follow-up questions with the built-in Q&A chat.
  
